@@ -110,7 +110,7 @@ int main(int argc, char** argv)
   auto ext_opt = std::make_pair("--ext", "file extension regex");
   auto input_opt = std::make_pair("--in", "input regex");
   auto output_opt = std::make_pair("--out", "output regex");
-  auto mv_file_opt = std::make_pair("-mf", "rename from --in to --out");
+  auto mv_file_opt = std::make_pair("-mf", "rename file from --in to --out");
   auto is_verbose_opt = std::make_pair("-v|--verbose", "print status");
   auto fix_eof_newline_opt = std::make_pair("-n|--fix-eof-newline", "fix missing end of file newline character");
   auto exclude_dir_opt = std::make_pair("--exclude-dir", "exclude directory from file...");
